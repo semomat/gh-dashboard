@@ -1,0 +1,39 @@
+.log-info {
+    width: 30%;
+    height: 200px; /* Set the height to 100px */
+    overflow-y: auto; /* Make it scrollable */
+    margin-left: 1rem;
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    padding: 1rem;
+    border: 1px solid #333;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .log-info h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem; /* Add some space below the heading */
+  }
+  
+  .log-info table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .log-info th, .log-info td {
+    border: 1px solid #333; /* Dark border */
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  .log-info th {
+    background-color: #1f1f1f; /* Slightly lighter dark grey */
+    color: #e0e0e0; /* Light grey text */
+  }
+  
+  .log-info td {
+    background-color: #121212; /* Dark grey background */
+    color: #e0e0e0; /* Light grey text */
+  }
